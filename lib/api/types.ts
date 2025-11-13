@@ -18,10 +18,6 @@ export interface ResetPasswordRequest {
     newPassword: string;
 }
 
-export interface ForgotPasswordRequest {
-    email: string;
-}
-
 // ============================================
 // RESPONSE TYPES
 // ============================================
