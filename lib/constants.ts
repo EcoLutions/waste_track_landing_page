@@ -87,13 +87,13 @@ export const APP_STORE_URLS = {
 
 export const APP_INFO = {
     DRIVER: {
-        name: 'WasteTrack Driver',
+        appName: 'WasteTrack Driver',  // <- Cambiar "name" por "appName"
         description: 'Aplicación móvil para conductores de recolección',
         iosUrl: APP_STORE_URLS.DRIVER.IOS,
         androidUrl: APP_STORE_URLS.DRIVER.ANDROID,
     },
     CITIZEN: {
-        name: 'WasteTrack Citizen',
+        appName: 'WasteTrack Citizen',  // <- Cambiar "name" por "appName"
         description: 'Aplicación móvil para ciudadanos',
         iosUrl: APP_STORE_URLS.CITIZEN.IOS,
         androidUrl: APP_STORE_URLS.CITIZEN.ANDROID,
