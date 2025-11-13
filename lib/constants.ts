@@ -7,10 +7,10 @@
 // ============================================
 
 export const ROLES = {
-    SYSTEM_ADMIN: 'SYSTEM_ADMIN',
-    MUNICIPAL_ADMIN: 'MUNICIPAL_ADMIN',
-    DRIVER: 'DRIVER',
-    CITIZEN: 'CITIZEN',
+    SYSTEM_ADMIN: 'ROLE_SYSTEM_ADMINISTRATOR',
+    MUNICIPAL_ADMIN: 'ROLE_MUNICIPAL_ADMINISTRATOR',
+    DRIVER: 'ROLE_DRIVER',
+    CITIZEN: 'ROLE_CITIZEN',
 } as const;
 
 export type Role = (typeof ROLES)[keyof typeof ROLES];
