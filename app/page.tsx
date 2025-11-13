@@ -1,8 +1,6 @@
+import {redirect} from "next/navigation"
+import {ROUTES} from "@/lib/constants"
 
-export default function Home() {
-  return (
-      <div>
-          Hola
-      </div>
-  );
+export default function HomePage() {
+    redirect(ROUTES.LANDING.MUNICIPAL_ADMIN)
 }
