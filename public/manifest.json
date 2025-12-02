@@ -1,0 +1,22 @@
+{
+  "name": "WasteTrack - Gestión Inteligente de Residuos",
+  "short_name": "WasteTrack",
+  "description": "Plataforma para optimizar la gestión de residuos urbanos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2ca05a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/wastetrack-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/wastetrack-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
