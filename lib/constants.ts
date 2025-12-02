@@ -31,7 +31,7 @@ export type Segment = (typeof SEGMENTS)[keyof typeof SEGMENTS];
 // API ENDPOINTS
 // ============================================
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api/v1';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://waste-track-platform-production.up.railway.app/api/v1';
 
 export const API_ENDPOINTS = {
     AUTH: {
@@ -46,8 +46,8 @@ export const API_ENDPOINTS = {
 // ============================================
 
 export const WEB_APP_URLS = {
-    SYSTEM_ADMIN: process.env.NEXT_PUBLIC_SYSTEM_ADMIN_URL || 'http://localhost:4200/system-admin/dashboard',
-    MUNICIPAL_ADMIN: process.env.NEXT_PUBLIC_MUNICIPAL_ADMIN_URL || 'http://localhost:4200/municipal-admin/dashboard',
+    SYSTEM_ADMIN: process.env.NEXT_PUBLIC_SYSTEM_ADMIN_URL || 'https://waste-track-super-admin.netlify.app',
+    MUNICIPAL_ADMIN: process.env.NEXT_PUBLIC_MUNICIPAL_ADMIN_URL || 'https://waste-track-municipal-admin.netlify.app',
 } as const;
 
 // ============================================
