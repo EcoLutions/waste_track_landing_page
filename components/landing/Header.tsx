@@ -5,7 +5,7 @@ import Image from "next/image"
 import {Button} from "@/components/ui/button"
 import {RoleSwitcher} from "./RoleSwitcher"
 import {useSegment} from "@/contexts/segment-context"
-import {DEEP_LINKS} from "@/lib/constants"
+import {DEEP_LINKS, WEB_APP_URLS} from "@/lib/constants"
 import {Menu} from "lucide-react"
 import {useState} from "react"
 
@@ -19,7 +19,7 @@ export function Header() {
                 return (
                     <>
                         <Button variant="outline" asChild className="hidden md:flex">
-                            <Link href="http://localhost:4200/municipal-admin">
+                            <Link href={WEB_APP_URLS.MUNICIPAL_ADMIN}>
                                 Iniciar sesión
                             </Link>
                         </Button>
