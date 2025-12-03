@@ -6,6 +6,8 @@ import {TestimonialsSection} from "@/components/landing/TestimonialsSection"
 import {AppDownloadSection} from "@/components/landing/AppDownloadSection"
 import {CrossPromotionSection} from "@/components/landing/CrossPromotionSection"
 import {ContactSection} from "@/components/landing/ContactSection"
+import {ProductVideoSection} from "@/components/landing/ProductVideoSection";
+import {TeamVideoSection} from "@/components/landing/TeamVideoSection";
 
 export const metadata: Metadata = {
     title: "WasteTrack para Conductores - Optimiza tus Rutas",
@@ -23,6 +25,8 @@ export default function DriverPage() {
             <TestimonialsSection />
             <AppDownloadSection />
             <CrossPromotionSection />
+            <ProductVideoSection />
+            <TeamVideoSection />
             <ContactSection />
         </>
     )

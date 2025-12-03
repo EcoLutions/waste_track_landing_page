@@ -5,6 +5,8 @@ import {FeaturesSection} from "@/components/landing/FeaturesSection"
 import {TestimonialsSection} from "@/components/landing/TestimonialsSection"
 import {CrossPromotionSection} from "@/components/landing/CrossPromotionSection"
 import {ContactSection} from "@/components/landing/ContactSection"
+import {ProductVideoSection} from "@/components/landing/ProductVideoSection";
+import {TeamVideoSection} from "@/components/landing/TeamVideoSection";
 
 export const metadata: Metadata = {
     title: "WasteTrack para Administradores Municipales - Gestión Inteligente de Residuos",
@@ -21,6 +23,8 @@ export default function MunicipalAdminPage() {
             <FeaturesSection />
             <TestimonialsSection />
             <CrossPromotionSection />
+            <ProductVideoSection/>
+            <TeamVideoSection />
             <ContactSection />
         </>
     )
